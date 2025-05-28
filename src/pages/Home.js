@@ -93,45 +93,23 @@ export default function Home() {
       </div>
 
       <footer className="bg-[#0D1117] text-white py-10 px-6 md:px-20">
-        <div className="grid gap-10 mx-auto max-w-7xl md:grid-cols-3">
+        <div className="grid items-start gap-10 mx-auto text-center max-w-7xl md:grid-cols-2 md:text-left">
           <div>
-            <div className="flex items-center mb-4">
+            <div className="flex items-center justify-center mb-4 md:justify-start">
               <div className="px-2 py-1 mr-2 font-bold text-white bg-blue-600 rounded-md">
                 FT
               </div>
               <span className="text-xl font-semibold">FocusTube</span>
             </div>
-            <p className="text-gray-400">
+            <p className="max-w-sm mx-auto text-gray-400 md:mx-0">
               Helping you stay focused and productive while watching YouTube. No
               distractions, just pure content.
             </p>
           </div>
 
-          <div>
-            <h3 className="mb-3 font-semibold text-white">Support</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="">Help Center</a>
-              </li>
-              <li>
-                <a href="">Contact Us</a>
-              </li>
-              <li>
-                <a href="">Bug Reports</a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="mb-3 font-semibold text-white">Legal</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="">Terms of Service</a>
-              </li>
-            </ul>
+          <div className="flex flex-col items-center justify-center md:items-end md:justify-start">
+            <h3 className="mb-3 font-semibold text-white">Contact</h3>
+            <p className="text-gray-400">help@focustube.com</p>
           </div>
         </div>
 
